@@ -417,4 +417,10 @@
       </build>
     </profile>
   </profiles>
+  <distributionManagement>
+  <repository>
+    <id>nexus</id>
+    <url>http://54.152.154.215:8081/repository/maven-releases/</url>
+  </repository>
+</distributionManagement>
 </project>
